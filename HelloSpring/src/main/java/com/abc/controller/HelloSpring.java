@@ -10,6 +10,6 @@ public class HelloSpring {
     @RequestMapping("/hello")
     public String sayHello(ModelMap map) {
         map.addAttribute("msg", "attributeValue");
-        return "index";
+        return "index3";
     }
 }
